@@ -1,0 +1,58 @@
+.app-main{
+
+.App {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start; /* Расположение влево */
+  align-items: center;
+  padding: 20px;
+  background-color: #364696;
+}
+
+
+
+.title {
+  margin-left: 10px; /* Расстояние от логотипа до названия сайта */
+}
+
+.login {
+  margin-left: auto; /* Расположение кнопки "Вход" вправо */
+}
+
+.main {
+  margin-top: 50px;
+}
+
+}
+
+.button-connect {
+  background: #3159c9;
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+ }
+ 
+ .button-connect:hover {
+  background: #192d67;
+ }
+
+ .rounded {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.rounded:focus {
+  border-color: #007bff; /* изменить цвет рамки при фокусе */
+}

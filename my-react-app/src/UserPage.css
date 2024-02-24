@@ -1,0 +1,87 @@
+/* UserPage.css */
+
+.header {
+  background-color: #364696;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.exit {
+  margin-left: auto;
+}
+
+.buttonlog-e {
+  background-color: #fff;
+  color: #364696;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttonlog-e:hover {
+  background-color: #ccc;
+}
+
+.user-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.body-user {
+  display: flex;
+  flex: 1;
+}
+.left-body {
+  border: 0px solid rgb(64, 71, 86); /* Добавляем рамку черного цвета */
+  flex: 1;
+  background-color: #181d36;
+  
+}
+
+
+.right-body {
+  flex:4;
+  padding: 20px;
+  background-color: #fff;
+}
+
+
+.button_profile {
+  
+  background-color: #1c255000;
+  width: 100%;
+  text-align: left;
+}
+
+button {
+  text-align: left;
+  margin-left: 10px;
+  width: 100%;
+  background-color: #1c255000;
+  color: #ffffff;
+  padding: 14px 8px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cccccc57;
+}

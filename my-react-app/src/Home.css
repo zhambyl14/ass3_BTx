@@ -1,0 +1,38 @@
+.header {
+  background-color: #364696;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logos img {
+  width: 50px; /* Уменьшаем ширину логотипа */
+  height: auto; /* Позволяет сохранить пропорции логотипа */
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.login {
+  margin-left: auto;
+}
+
+.buttonlog {
+  background-color: #fff;
+  color: #364696;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttonlog:hover {
+  background-color: #ccc;
+}
